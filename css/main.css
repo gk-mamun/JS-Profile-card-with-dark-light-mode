@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.profile-container {
+    width: 700px;
+    min-height: 500px;
+    background-color: #FF8CAF;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 230px auto;
+}
+
+.avatar-container {
+    background-color: #DC3A6A;
+    border-radius: 10px;
+    padding: 70px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar {
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.avatar img {
+    width: 100%;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-icons a i {
+    font-size: 20px;
+}
+
+.content-container {
+    padding: 70px 50px;
+    position: relative;
+}
+
+#mode-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+#mode-text {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.name {
+    font-size: 30px;
+    color: #383838;
+}
+
+.position {
+    font-size: 16px;
+    color: #383838;
+    margin: 3px 0;
+}
+
+.country {
+    color: #545454;
+    font-weight: 500;
+}
+
+.description {
+    text-align: justify;
+    font-size: 14px;
+    margin: 30px 0;
+    color: #383838;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 12px;
+}
+
+.skill {
+    background-color: #DC3A6A;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.skill.see-more-btn {
+    background-color: #A41A43;
+    cursor: pointer;
+}
+
+#stats h3 {
+    font-size: 16px;
+    color: #383838;
+    margin: 30px 0 5px 0;
+}
+
+.stat-container {
+    background-color: #DC3A6A;
+    border-radius: 15px;
+    color: #fff;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat-container div h4 {
+    font-size: 13px;
+}
+
+.stat-container div p {
+    font-size: 24px;
+}
+
+.stat-container div p .unit {
+    font-size: 13px;
+}

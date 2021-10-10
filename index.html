@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Profile Card</title>
+
+    <!-- Font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <div class="profile-container">
+        <div class="avatar-container pink-bg">
+            <div class="avatar">
+                <img src="./images/avatar.jpg" alt="">
+            </div>
+            <div class="social-icons">
+                <a href="#">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+        <div class="content-container">
+            <!-- Mode control button -->
+            <div id="mode-btn">
+                <p id="mode-text">Dark</p>
+                <img src="./images/moon.svg" alt="" id="mode-icon">
+            </div>
+
+            <!-- Profile Content -->
+            <h1 class="name gray-text">John Doe</h1>
+            <h4 class="position gray-text">Web Developer</h4>
+            <h4 class="country">Malaysia</h4>
+
+            <div class="description gray-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            </div>
+
+            <div class="skills">
+                <div class="skill pink-bg">Python</div>
+                <div class="skill pink-bg">Django</div>
+                <div class="skill pink-bg">Javascript</div>
+                <div class="skill see-more-btn">See More</div>
+            </div>
+
+            <div id="stats">
+                <h3 class="gray-text">Stats</h3>
+                <div class="stat-container pink-bg">
+                    <div>
+                        <h4>Projects</h4>
+                        <p>39</p>
+                    </div>
+                    <div>
+                        <h4>Rate</h4>
+                        <p>$70<span class="unit">/hr</span></p>
+                    </div>
+                    <div>
+                        <h4>Projects</h4>
+                        <p>100<span class="unit">k+</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
